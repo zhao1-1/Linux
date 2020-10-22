@@ -653,7 +653,7 @@ endfunc
 
 ### （2）插件管理
 
-#####（2-0）插件管理器
+##### （2-0）插件管理器
 
 + 有啥：
 
@@ -683,7 +683,7 @@ endfunc
     3. `https://vimawesome.com/`
     4. 浏览网上开源的vim配置借鉴想要的插件；
 
-#####（2-1）美化插件
+##### （2-1）美化插件
 
 + 启动界面：‘mhinz/vim-startify’
 + 状态栏美化：‘vim-airline/vim-airline’
@@ -693,12 +693,12 @@ endfunc
   2. `'altercation/vim-colors-solarized'`
   3. `'morhetz/gruvbox'`
 
-#####（2-2）文件管理
+##### （2-2）文件管理
 
 + 文件管理器`'scrooloose/nerdtree'`
 + 快速搜索文件`'ctrlpvim/ctrlp.vim'`
 
-#####（2-3）模糊搜索、快速定位、成对修改、搜索替换
+##### （2-3）模糊搜索、快速定位、成对修改、搜索替换
 
 1. `junegunn/fzf.vim`
 
@@ -741,15 +741,15 @@ endfunc
    + `:Far foo bar **/*.py`
    + `:Fardo`
 
-#####（2-4）golang语言编写相关
+##### （2-4）golang语言编写相关
 
 + `Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }`
 
-#####（2-5）Python语言编写相关
+##### （2-5）Python语言编写相关
 
 + `Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }`
 
-#####（2-6）代码浏览
+##### （2-6）代码浏览
 
 + 代码大纲tagbar：
 
@@ -770,7 +770,7 @@ endfunc
 
   + `'lfv89/vim-interestingwords'`
 
-#####（2-7）代码补全
+##### （2-7）代码补全
 
 1. YouCompleteMe
 2. deoplete.nvim
@@ -784,7 +784,7 @@ endfunc
    + `'neoclide/coc.nvim'`
 4. UltiSnips：
 
-#####（2-8）代码格式化与静态检查
+##### （2-8）代码格式化与静态检查
 
 1. Neoformat：
    + `'sbdchd/neoformat'`
@@ -804,7 +804,7 @@ endfunc
    + vim8/neovim支持异步检查，不会影响vim编辑
 4. neomake
 
-#####（2-9）代码注释
+##### （2-9）代码注释
 
 1. `'tpope/vim-commentary'`
    + gc注释和取消注释
@@ -818,7 +818,7 @@ endfunc
 
 
 
-#####（2-10）vim和Git
+##### （2-10）vim和Git
 
 1. `'tpope/vim-fugitive'`
    + Gedit, Gdiff, Gblame, Gcommit等命令
@@ -834,15 +834,15 @@ endfunc
    + GV命令调用
    + 浏览代码提交变更
 
-#####（2-11）Vim and Tmux
+##### （2-11）Vim and Tmux
 
-#####（2-12）书签管理-标记及跳转
+##### （2-12）书签管理-标记及跳转
 
-#####（2-13）中文输入问题
+##### （2-13）中文输入问题
 
 ##### （2-14）Markdown
 
-#####（2-15）Latex
+##### （2-15）Latex
 
 
 
@@ -945,7 +945,7 @@ endfunc
 
 
 
-#####（3-3）Normal模式 -- 增删改查：
+##### （3-3）Normal模式 -- 增删改查：
 
 1. 增加字符：
 
@@ -1031,7 +1031,7 @@ endfunc
 
 
 
-#####（3-6）Command模式：
+##### （3-6）Command模式：
 
 1. 设置vim：
    + :set sutoindent【自动缩进】
@@ -1127,7 +1127,7 @@ endfunc
 
 
 
-#####（4-2）vim补全
+##### （4-2）vim补全
 
 + 补全方式：
 
@@ -1258,7 +1258,7 @@ endfunc
 
 
 
-###（5）vim开发：
+### （5）vim开发：
 
 ##### （5-1）text object（灵魂）
 
